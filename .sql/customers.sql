@@ -1,0 +1,8 @@
+CREATE DATABASE API;
+
+CREATE TABLE customers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(191),
+    email VARCHAR(191),
+    phone VARCHAR(20)
+);
